@@ -34,7 +34,7 @@ var itemMap = {
     10942: '贵州茅台酒（甲辰龙年）x2'
 }
 var address = $.getdata('imaotai__config__address') || '' // 详细地址
-var location = $.getdata('imaotai__config__location') || '' // 地址经纬度
+var location = '112.990682,34.734001' // 地址经纬度
 var shopid = $.getdata('imaotai__config__shopid') || '' // 商铺id
 var isTravel = true // 是否开启茅运旅行
 var imaotaiParams = JSON.parse($.getdata('imaotai_params') || '{}') // 抓包参数
